@@ -122,7 +122,7 @@ public class VisitServiceTest {
     public void testDeleteVisit() {
         Long PET_ID = 7L;
         Date VISIT_DATE = Date.valueOf("2024-10-31");
-        String DESCRIPTION = "Vaccination";
+        String DESCRIPTION = "Vacunación by Arturo";
 
         Visit visit = new Visit();
         visit.setPetId(PET_ID);
